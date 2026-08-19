@@ -65,7 +65,20 @@ DeepLearning-zero-hero
 
 从最基础的一行 Linear 开始，一步步走到今天的 LLM 与 Agent。
 
+## 🗓️ 更新目录
+
+| 板块 | 章节 | 更新内容 | 内容简介 |
+| ---- | ---- | ---- | ---- |
+| foundations | Linear | `01-foundations/Linear.ipynb` | 线性层前向计算、shape 变化、线性层叠加与梯度公式 |
+| foundations | Attention | `01-foundations/Attention/Attention.ipynb` | scaled dot-product attention、Q/K/V、mask 与注意力权重计算 |
+| foundations | Multi-Head Attention | `01-foundations/Attention/MultiHeadAttention.ipynb` | 多头拆分、并行 attention heads、mask 广播与输出融合 |
+| foundations | Grouped Query Attention | `01-foundations/Attention/GroupAttention.ipynb` | GQA/MQA/MHA 对比、K/V 共享机制与 KV cache 开销 |
+
+
+
 ## 🙌 一起学习
 
 欢迎关注、阅读、提出 issue 或贡献实现。
 
+## 📘 参考教程
+《LLMs-Zero-to-Hero》: https://github.com/bbruceyuan/LLMs-Zero-to-Hero
