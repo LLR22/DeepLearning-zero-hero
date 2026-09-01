@@ -65,14 +65,20 @@ DeepLearning-zero-hero
 
 从最基础的一行 Linear 开始，一步步走到今天的 LLM 与 Agent。
 
-## 🗓️ 更新目录
+## 🗂️ 内容目录
 
-| 板块 | 章节 | 更新内容 | 内容简介 |
+| 板块 | 章节 | 文件 | 内容简介 |
 | ---- | ---- | ---- | ---- |
 | foundations | Linear | `01-foundations/Linear.ipynb` | 线性层前向计算、shape 变化、线性层叠加与梯度公式 |
+| foundations | CNN | `01-foundations/CNN.ipynb` | 卷积层计算、感受野、参数量、padding / stride 与输出尺寸变化 |
+| foundations | Normalization | `01-foundations/Norm.ipynb` | BatchNorm、LayerNorm、RMSNorm 的计算方式、统计维度与适用场景 |
 | foundations | Attention | `01-foundations/Attention/Attention.ipynb` | scaled dot-product attention、Q/K/V、mask 与注意力权重计算 |
 | foundations | Multi-Head Attention | `01-foundations/Attention/MultiHeadAttention.ipynb` | 多头拆分、并行 attention heads、mask 广播与输出融合 |
 | foundations | Grouped Query Attention | `01-foundations/Attention/GroupAttention.ipynb` | GQA/MQA/MHA 对比、K/V 共享机制与 KV cache 开销 |
+| foundations | Linear Attention | `01-foundations/Attention/LinearAttention.ipynb` | 线性注意力的复杂度优化、kernel feature map 与 softmax 近似思路 |
+| architectures | ResNet | `02-architectures/CNN_based/Resnet.ipynb` | 残差连接、网络退化、BasicBlock 与 projection shortcut 的代码实现 |
+| architectures | Transformer | `02-architectures/Attention_based/Transformer.ipynb` | Encoder-Decoder 架构、位置编码、mask、自回归训练与推理流程 |
+| training | CLIP | `03-training/CLIP.ipynb` | 图文对比学习、相似度矩阵、对称 loss 与 zero-shot 分类思路 |
 
 
 
