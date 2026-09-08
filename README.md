@@ -78,6 +78,7 @@ DeepLearning-zero-hero
 | foundations | Linear Attention | `01-foundations/Attention/LinearAttention.ipynb` | 线性注意力的复杂度优化、kernel feature map 与 softmax 近似思路 |
 | architectures | ResNet | `02-architectures/CNN_based/Resnet.ipynb` | 残差连接、网络退化、BasicBlock 与 projection shortcut 的代码实现 |
 | architectures | Transformer | `02-architectures/Attention_based/Transformer.ipynb` | Encoder-Decoder 架构、位置编码、mask、自回归训练与推理流程 |
+| architectures | Diffusion | `02-architectures/Diffusion.ipynb` | 扩散模型的前向加噪、反向去噪、噪声预测与逐步生成思路 |
 | training | CLIP | `03-training/CLIP.ipynb` | 图文对比学习、相似度矩阵、对称 loss 与 zero-shot 分类思路 |
 
 
