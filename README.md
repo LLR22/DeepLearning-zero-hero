@@ -70,6 +70,7 @@ DeepLearning-zero-hero
 | 板块 | 章节 | 文件 | 内容简介 |
 | ---- | ---- | ---- | ---- |
 | foundations | Linear | `01-foundations/Linear.ipynb` | 线性层前向计算、shape 变化、线性层叠加与梯度公式 |
+| foundations | Activation | `01-foundations/Activation.ipynb` | Sigmoid、ReLU、Tanh、Softmax 等常见激活函数的公式、性质与适用特点 |
 | foundations | CNN | `01-foundations/CNN.ipynb` | 卷积层计算、感受野、参数量、padding / stride 与输出尺寸变化 |
 | foundations | Normalization | `01-foundations/Norm.ipynb` | BatchNorm、LayerNorm、RMSNorm 的计算方式、统计维度与适用场景 |
 | foundations | Attention | `01-foundations/Attention/Attention.ipynb` | scaled dot-product attention、Q/K/V、mask 与注意力权重计算 |
@@ -80,6 +81,7 @@ DeepLearning-zero-hero
 | architectures | Transformer | `02-architectures/Attention_based/Transformer.ipynb` | Encoder-Decoder 架构、位置编码、mask、自回归训练与推理流程 |
 | architectures | Diffusion | `02-architectures/Diffusion.ipynb` | 扩散模型的前向加噪、反向去噪、噪声预测与逐步生成思路 |
 | training | CLIP | `03-training/CLIP.ipynb` | 图文对比学习、相似度矩阵、对称 loss 与 zero-shot 分类思路 |
+| llm | nanoGPT | `04-llm/nanoGPT.ipynb` | GPT-2 风格模型、causal self-attention、Transformer block 与文本生成流程 |
 
 
 
